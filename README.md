@@ -1,1 +1,1 @@
-A [Jekyll](https://jekyllrb.com/) site for [ComoCryptoCOn](http://comocryptocon.com)
+A [Jekyll](https://jekyllrb.com/) site for [ComoCryptoCon](http://comocryptocon.com)
