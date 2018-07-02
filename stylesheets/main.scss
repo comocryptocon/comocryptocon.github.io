@@ -1,0 +1,63 @@
+---
+#Front matter so Jekylle with proccess this file
+#Color Scheme: https://coolors.co/fbf5f3-c5c3c6-46494c-e3b23c-4c5c68
+#Alternative Color Scheme: https://coolors.co/fa810c-88705c-a62e1c-d48525-fae8ad
+#Alternative Color Shceme: https://coolors.co/909764-011422-0a434e-315d52-717a52
+---
+
+$color-accent-orange: #fa810c;
+$color-accent-metal: #4c5c68;
+$color-accent-blue: #0a434e;
+$color-accent-green: #315d52;
+$color-orange-light: #e3b23c;
+$color-gray-dark: #46494c;
+$color-gray-light: #c5c3c6;
+$color-gray-lightest: #fbf5f3;
+
+body {
+  background: $color-gray-lightest;
+}
+
+#comocryptocon-header {
+  background: url('/images/chains-919058_1920.jpg');
+  background-size: cover;
+  text-align: center;
+  min-height: 20em;
+
+  .comocryptocon-header-content {
+    text-align: center;
+    margin: 3em auto;
+    font-size: 4em;
+    .comocryptocon-title {
+      color: $color-accent-orange;
+      font-weight: bold;
+      font-size: 1em;
+      text-shadow: $color-gray-lightest 2px 2px;
+    }
+    .comocryptocon-subtitle {
+      color: $color-gray-lightest;
+      text-shadow: $color-gray-light 3px 0px;
+    }
+  }
+}
+
+#comocryptocon-cta {
+  min-height: 10em;
+  background: $color-orange-light;
+  .comocryptocon-speaker-signup-cta {
+    margin: 2em auto;
+    text-align: center;
+    a {
+      color: $color-accent-blue;
+      text-decoration: none;
+      .comocryptocon-speaker-button {
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+#comocryptocon-location {
+  text-align: center;
+  padding-top: 2em;
+}
