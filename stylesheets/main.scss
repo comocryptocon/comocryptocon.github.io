@@ -47,6 +47,10 @@ body {
   .comocryptocon-speaker-signup-cta {
     margin: 2em auto;
     text-align: center;
+    border: solid $color-accent-blue 2px;
+    border-radius: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     a {
       color: $color-accent-blue;
       text-decoration: none;
