@@ -86,5 +86,11 @@ body {
 
 #comocryptocon-location {
   text-align: center;
-  padding-top: 2em;
+  padding: 2em;
+  background: $color-gray-light;
+  color: $color-accent-metal;
+  font-size: 2em;
+  em {
+    color: $color-accent-blue;
+  }
 }
