@@ -14,6 +14,9 @@ $color-gray-dark: #46494c;
 $color-gray-light: #c5c3c6;
 $color-gray-lightest: #fbf5f3;
 
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+
 body {
   background: $color-gray-lightest;
 }
@@ -26,10 +29,18 @@ body {
 
   .comocryptocon-header-content {
     text-align: center;
-    margin: 3em auto;
     font-size: 4em;
     padding: 0.5em;
     background: #0a434eb3;
+
+    @media (min-width: $breakpoint-sm) {
+      margin: 1.5em auto;
+    }
+
+    @media (min-width: $breakpoint-md) {
+      margin: 3em auto;
+    }
+
     .comocryptocon-title {
       color: $color-accent-orange;
       font-weight: bold;
