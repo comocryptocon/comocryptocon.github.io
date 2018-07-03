@@ -52,8 +52,19 @@ body {
     border-radius: 0.5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    background-color: $color-accent-blue;
+    box-shadow: $color-gray-dark 0.25em 0.25em 0.25em;
+
+    &:hover {
+      box-shadow: $color-gray-dark 0.50em 0.50em 0.50em;
+    }
+
+    &:active {
+      box-shadow: none;
+    }
+
     a {
-      color: $color-accent-blue;
+      color: white;
       text-decoration: none;
       .comocryptocon-speaker-button {
         font-size: 2em;
