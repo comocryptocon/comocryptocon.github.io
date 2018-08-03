@@ -57,7 +57,7 @@ body {
   min-height: 10em;
   background: $color-orange-light;
   .comocryptocon-speaker-signup-cta {
-    margin: 2em auto;
+    margin: 0.5em auto;
     text-align: center;
     border: solid $color-accent-blue 2px;
     border-radius: 0.5em;
@@ -65,6 +65,14 @@ body {
     padding-bottom: 0.5em;
     background-color: $color-accent-blue;
     box-shadow: $color-gray-dark 0.25em 0.25em 0.25em;
+
+    @media(min-width: $breakpoint-sm) {
+      margin: 1em auto;
+    }
+
+    @media(min-width: breakpoint-md) {
+      margin: 2em auto;
+    }
 
     &:hover {
       box-shadow: $color-gray-dark 0.50em 0.50em 0.50em;
@@ -86,10 +94,19 @@ body {
 
 #comocryptocon-location {
   text-align: center;
-  padding: 2em;
   background: $color-gray-light;
   color: $color-accent-metal;
   font-size: 2em;
+  padding: 0.25em 0;
+
+  @media(min-width: $breakpoint-sm) {
+    padding: 1em;
+  }
+
+  @media(min-width: breakpoint-md) {
+    padding: 2em;
+  }
+
   em {
     color: $color-accent-blue;
   }
@@ -98,15 +115,31 @@ body {
 #comocryptocon-mailinglist {
   background: $color-accent-blue;
   color: white;
+
   #comocryptocon-mailinglist-signup {
-    padding: 1em;
+    @media(min-width: $breakpoint-sm) {
+      padding: 0.5em;
+    }
+
+    @media(min-width: breakpoint-md) {
+      padding: 1em;
+    }
+
   }
 }
 
 
 #comocryptocon-sponsors {
-  padding: 1em;
   background: white;
+
+  @media(min-width: $breakpoint-sm) {
+    padding: 0.5em;
+  }
+
+  @media(min-width: breakpoint-md) {
+    padding: 1em;
+  }
+
   a {
     color: black;
   }
