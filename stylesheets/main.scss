@@ -103,3 +103,24 @@ body {
   }
 }
 
+
+#comocryptocon-sponsors {
+  padding: 1em;
+  background: white;
+  a {
+    color: black;
+  }
+
+  .comocryptocon-sponsor {
+    text-align: center;
+    padding: 0.5em;
+
+    .comocryptocon-sponsor-image {
+      max-height: 10em;
+    }
+
+    .comocryptocon-sponsor-name {
+      font-size: 2em;
+    }
+  }
+}
